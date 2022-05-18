@@ -1,0 +1,11 @@
+{
+    "database": {
+        "host":"mysql",
+        "port":"3306",
+        "user":"user",
+        "password":"password",
+        "db_name":"TestDB",
+        "charset":"utf8",
+        "use_unicode":"True"
+    }
+}
