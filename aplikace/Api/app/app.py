@@ -13,7 +13,8 @@ app=Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "<p> Hello World </p>"
+    #return "<p> Hello World </p>"
+    return render_template("main.html")
 
 @app.route("/upload_csv", methods=["GET", "POST"])
 def upload_csv():
